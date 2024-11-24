@@ -1,0 +1,115 @@
+/*
+Theme Name: My Blank Theme
+Author: Nikita Babichev
+Description: This theme is a boilerplate
+Version: 1.0
+Tags: custom-theme
+*/
+
+*,
+html,
+body {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a,
+button,
+input {
+  text-decoration: none;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+big,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+iframe,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+ul,
+var {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.blue__section a:not(.button-new) {
+  color: #ff7c32;
+  text-decoration: underline;
+}
+
+.blue__section a:hover {
+  text-decoration: none;
+}
+
+.container,
+.container-big {
+  max-width: 1264px;
+  width: 100%;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+.container-big {
+  max-width: 1296px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
